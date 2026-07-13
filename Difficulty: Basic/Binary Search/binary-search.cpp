@@ -3,8 +3,8 @@ class Solution {
     bool binarySearch(vector<int>& arr, int k) {
         // code here
         int n = arr.size();
-        
-        int start=0, end=n-1, mid;
+        int mid;
+        int start=0, end = n-1;
         
         while(start <= end){
             mid = start + (end - start)/2;
